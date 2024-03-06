@@ -1,0 +1,10 @@
+{
+    "skr-urd": {
+        "input": "skr-urd-input.txt",
+        "mode": "skr-urd"
+    },
+    "urd-skr": {
+        "input": "urd-skr-input.txt",
+        "mode": "urd-skr"
+    }
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- skr → urd -->
+
+  <mode name="skr-urd" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="skr-urd.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="skr-urd.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="skr-urd.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="skr-urd.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="skr-urd.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="skr-urd.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="skr-urd.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="skr-urd.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- urd → skr -->
+
+  <mode name="urd-skr" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="urd-skr.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="urd-skr.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="urd-skr.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="urd-skr.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="urd-skr.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="urd-skr.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="urd-skr.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="urd-skr.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
