@@ -96,15 +96,15 @@
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
-      <!-- example:
-           <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <!-- SECTION: Nouns -->
+      <e><p><l>تنور<s n="n"/><s n="m"/></l><r>تنور<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>عزت<s n="n"/><s n="f"/></l><r>عزت<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>آجڑی<s n="n"/><s n="m"/></l><r>آجڑی<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>آخرت<s n="n"/><s n="f"/></l><r>آخرت<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>آس<s n="n"/><s n="f"/></l><r>امید<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>آسرا<s n="n"/><s n="m"/></l><r>سہارا<s n="n"/><s n="m"/></r></p></e>
-      -->
 
+      <!-- SECTION: Punctuation -->
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
