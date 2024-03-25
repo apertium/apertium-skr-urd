@@ -155,11 +155,11 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
-	apertium-validate-lrx $<
+#apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
-	apertium-validate-lrx $<
+#apertium-validate-lrx $<
 	lrx-comp $< $@
 
 

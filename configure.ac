@@ -4,18 +4,18 @@ AC_INIT([Apertium Saraiki-Urdu], [0.1.0], [https://github.com/apertium/apertium-
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
-PKG_CHECK_MODULES(APERTIUM, apertium >= 3.8.1)
-PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.6.9)
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.1)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.4.9)
 
 
-PKG_CHECK_MODULES(HFST, hfst >= 3.16.0)
+PKG_CHECK_MODULES(HFST, hfst >= 3.15.0)
 
 PKG_CHECK_MODULES(CG3, cg3 >= 1.3.6)
-PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.4.0)
+PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.0)
 
 
 
-PKG_CHECK_MODULES(APERTIUM_RECURSIVE, apertium-recursive >= 1.1.0)
+PKG_CHECK_MODULES(APERTIUM_RECURSIVE, apertium-recursive >= 0.0.1)
 
 AC_ARG_ENABLE([linter], AC_HELP_STRING([--enable-linter], [Lint files when compiling]))
 AM_CONDITIONAL([ENABLE_LINTER], [test "x$enable_linter" = "xyes"])

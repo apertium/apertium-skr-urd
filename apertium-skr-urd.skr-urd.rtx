@@ -16,7 +16,7 @@ adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
 
-NP: _.number;
+SN: _.number;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -38,9 +38,10 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !!!!!!!!!!!!!!!
 
 ! Example rule:
-! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><m><sg>$
+! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><nt><sg>$
 ! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
-! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+
+SN -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
