@@ -124,6 +124,13 @@
 	<e><p><l>کوئی<s n="det"/></l><r>کوئی<s n="det"/></r></p></e>
 	
 	<!-- SECTION: Pronouns -->
+
+	<!-- SECTION: Adverbs -->
+
+	<e><p><l>وِی<s n="adv"/></l><r>بھی<s n="adv"/></r></p></e>
+
+	<!-- SECTION: Verbs -->
+
 	
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
