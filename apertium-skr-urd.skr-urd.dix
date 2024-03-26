@@ -126,12 +126,18 @@
 	<e><p><l>جِہڑا<s n="det"/></l><r>جو<s n="det"/></r></p></e>
 	<e><p><l>کوئی<s n="det"/></l><r>کوئی<s n="det"/></r></p></e>
 	<e><p><l>جے<s n="det"/></l><r>جس<s n="det"/></r></p></e>
+	<e><p><l>کُجھ<s n="det"/></l><r>کچھ<s n="det"/></r></p></e>
 	
 	<!-- SECTION: Pronouns -->
 	<e><p><l>اوندے<s n="p3"/><s n="m"/></l><r>اس<s n="p3"/><s n="m"/></r></p></e>
 	<e><p><l>آپڑیاں<s n="p3"/><s n="m"/></l><r>اپنے<s n="p3"/><s n="m"/></r></p></e>
 	<e><p><l>اُنھاں<s n="p3"/><s n="m"/></l><r>انہوں<s n="p3"/><s n="m"/></r></p></e>
 	<e><p><l>اون٘دا<s n="p3"/><s n="m"/></l><r>اس<s n="p3"/><s n="m"/></r></p></e>
+	
+	<!-- SECTION: Adjectives -->
+	<e><p><l>بد<s n="n"/><s n="m"/></l><r>بد<s n="n"/><s n="m"/></r></p></e>
+	
+
 
 
 	<!-- SECTION: Adverbs -->
