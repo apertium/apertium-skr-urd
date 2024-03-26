@@ -125,6 +125,7 @@
 
 	<e><p><l>جِہڑا<s n="det"/></l><r>جو<s n="det"/></r></p></e>
 	<e><p><l>کوئی<s n="det"/></l><r>کوئی<s n="det"/></r></p></e>
+	<e><p><l>جے<s n="det"/></l><r>جس<s n="det"/></r></p></e>
 	
 	<!-- SECTION: Pronouns -->
 	<e><p><l>اوندے<s n="p3"/><s n="m"/></l><r>اس<s n="p3"/><s n="m"/></r></p></e>
@@ -138,6 +139,10 @@
 	<e><p><l>وِی<s n="adv"/></l><r>بھی<s n="adv"/></r></p></e>
 
 	<!-- SECTION: Verbs -->
+	<e><p><l>رووݨ<s n="vlex"/></l><r>رونے<s n="vlex"/></r></p></e>
+	<e><p><l>مرے<s n="vlex"/></l><r>مرتا<s n="vlex"/></r></p></e>
+	<e><p><l>لکھیئے<s n="vlex"/></l><r>لکھا<s n="vlex"/></r></p></e>
+	<e><p><l>آوے<s n="vlex"/></l><r>آتا<s n="vlex"/></r></p></e>
 
 	<!-- SECTION: Auxialry Verbs -->
 
