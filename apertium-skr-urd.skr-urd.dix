@@ -109,7 +109,21 @@
 	
       -->
  	<!-- SECTION: Conjunctions -->
+
 	<e><p><l>تے<s n="cnjcoo"/></l><r>اور<s n="cnjcoo"/></r></p></e>
+
+	<!-- SECTION: Postpositions -->
+
+	<e><p><l>نال<s n="post"/></l><r>سے<s n="post"/></r></p></e>
+	<e><p><l>کِیتے<s n="post"/></l><r>کیلیے<s n="post"/></r></p></e>
+	<e><p><l>کوں<s n="post"/></l><r>کو<s n="post"/></r></p></e>
+
+	<!-- SECTION: Determiners -->
+
+	<e><p><l>جِہڑا<s n="det"/></l><r>جو<s n="det"/></r></p></e>
+	<e><p><l>کوئی<s n="det"/></l><r>کوئی<s n="det"/></r></p></e>
+	
+	<!-- SECTION: Pronouns -->
 	
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
