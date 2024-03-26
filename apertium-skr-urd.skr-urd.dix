@@ -139,6 +139,14 @@
 
 	<!-- SECTION: Verbs -->
 
+	<!-- SECTION: Auxialry Verbs -->
+
+	<e><p><l>اے<s n="vaux"/></l><r>ہے<s n="vaux"/></r></p></e>
+	<e><p><l>ہے<s n="vaux"/></l><r>ہے<s n="vaux"/></r></p></e>
+	<e><p><l>وے<s n="vaux"/></l><r>ہو<s n="vaux"/></r></p></e>
+	
+
+
 	
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
