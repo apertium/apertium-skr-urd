@@ -108,7 +108,10 @@
 	<e><p><l>ݙا<s n="n"/><s n="m"/></l><r>طریقہ<s n="n"/><s n="m"/></r></p></e>
 	
       -->
- 	<!-- SECTION: Conjunctions -->
+ 	<!-- SECTION: Negation -->
+	<e><p><l>ناں<s n="neg"/></l><r>اور<s n="نہیں"/></r></p></e>
+	
+	<!-- SECTION: Conjunctions -->
 
 	<e><p><l>تے<s n="cnjcoo"/></l><r>اور<s n="cnjcoo"/></r></p></e>
 
