@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet> آ ا ب  ٻ پ   ت  ٹ ث ج ڄ چ  ح خ د  ڊ  ڈ  ݙ ذرڑزژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ں  ݨ و ہ ھ ءی ے  </alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
